@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ede0d4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, main, footer {
+            margin-bottom: 20px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #7f5539;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header .logo img {
+            width: 80px;
+            height: 80px;
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            position: relative;
+        }
+        header nav a:hover {
+            color: #ede0d4;
+        }
+        header form {
+            display: flex;
+            align-items: center;
+        }
+        header form input {
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        main {
+            flex: 1;
+        }
+        .breadcrumb {
+            font-size: 14px;
+            margin: 20px;
+        }
+        .breadcrumb a {
+            color: #999;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .breadcrumb a:hover {
+            color: #333;
+        }
+        .page-title {
+            font-size: 32px;
+            margin: 20px;
+        }
+        .filters {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+        }
+        .filters .price-range,
+        .filters .sort,
+        .filters .categories,
+        .filters .show {
+            font-size: 14px;
+        }
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product-item {
+            background-color: #e6ccb2;
+            border: 1px solid #e6ccb2;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .product-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #b08968;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .product-item h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product-item .price {
+            font-size: 16px;
+            color: #ff6363;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #7f5539;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        footer .footer-links a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        footer .footer-links a:hover {
+            text-decoration: underline;
+        }
+        footer .newsletter {
+            margin: 20px 0;
+        }
+        footer .newsletter input {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            margin-right: 10px;
+        }
+        footer .newsletter button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #ff6363;
+            color: #fff;
+            cursor: pointer;
+        }
+        footer .newsletter button:hover {
+            background-color: #e55353;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logosekidacraft.png" alt="logo">
+        </div>
+        <nav>
+            <a href="tengok indahnya dunia.html">Home</a>
+            <a href="tengok dunia satwa.html" target="_blank">Shop</a>
+            <a href="mailto:hamdanmusta.02@gmail.com">Catalog</a>
+            <a href="mailto:hamdanmusta.02@gmail.com">Contact</a>
+            <a href="mailto:hamdanmusta.02@gmail.com">Wishlist</a>
+            <a href="mailto:hamdanmusta.02@gmail.com">Account</a>
+        </nav>
+        <form>
+            <input type="text" name="search" placeholder="Search...">
+        </form>
+    </header>
+
+    <main>
+        <div class="breadcrumb">
+            <a href="#">Home</a> / <a href="#">Catalog</a>
+        </div>
+        <h1 class="page-title">Catalog</h1>
+        <section class="product-list">
+            <a href="tasmotifdiagonal.png" class="product-item">
+                <img src="tasmotifdiagonal.png" alt="Deskripsi Gambar">
+                <h2>Tas Jinjing</h2>
+                <div class="price">Rp 250.000</div>
+            </a>
+            <a href="tasmotifdiagonal.png" class="product-item">
+                <img src="tasmotifdiagonal.png" alt="Deskripsi Gambar">
+                <h2>Tas Jinjing</h2>
+                <div class="price">Rp 250.000</div>
+            </a>            <a href="tasmotifdiagonal.png" class="product-item">
+                <img src="tasmotifdiagonal.png" alt="Deskripsi Gambar">
+                <h2>Tas Jinjing</h2>
+                <div class="price">Rp 250.000</div>
+            </a>            <a href="tasmotifdiagonal.png" class="product-item">
+                <img src="tasmotifdiagonal.png" alt="Deskripsi Gambar">
+                <h2>Tas Jinjing</h2>
+                <div class="price">Rp 250.000</div>
+            </a>            <a href="tasmotifdiagonal.png" class="product-item">
+                <img src="tasmotifdiagonal.png" alt="Deskripsi Gambar">
+                <h2>Tas Jinjing</h2>
+                <div class="price">Rp 250.000</div>
+            </a>            <a href="tasmotifdiagonal.png" class="product-item">
+                <img src="tasmotifdiagonal.png" alt="Deskripsi Gambar">
+                <h2>Tas Jinjing</h2>
+                <div class="price">Rp 250.000</div>
+            </a>            <a href="tasmotifdiagonal.png" class="product-item">
+                <img src="tasmotifdiagonal.png" alt="Deskripsi Gambar">
+                <h2>Tas Jinjing</h2>
+                <div class="price">Rp 250.000</div>
+            </a>            <a href="tasmotifdiagonal.png" class="product-item">
+                <img src="tasmotifdiagonal.png" alt="Deskripsi Gambar">
+                <h2>Tas Jinjing</h2>
+                <div class="price">Rp 250.000</div>
+            </a>
+            <a href="tasmotifdiagonal.png" class="product-item">
+                <img src="tasmotifdiagonal.png" alt="Deskripsi Gambar">
+                <h2>Tas Jinjing</h2>
+                <div class="price">Rp 250.000</div>
+            </a>            <a href="tasmotifdiagonal.png" class="product-item">
+                <img src="tasmotifdiagonal.png" alt="Deskripsi Gambar">
+                <h2>Tas Jinjing</h2>
+                <div class="price">Rp 250.000</div>
+            </a>            <a href="tasmotifdiagonal.png" class="product-item">
+                <img src="tasmotifdiagonal.png" alt="Deskripsi Gambar">
+                <h2>Tas Jinjing</h2>
+                <div class="price">Rp 250.000</div>
+            </a>            <a href="tasmotifdiagonal.png" class="product-item">
+                <img src="tasmotifdiagonal.png" alt="Deskripsi Gambar">
+                <h2>Tas Jinjing</h2>
+                <div class="price">Rp 250.000</div>
+            </a>
+               </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="asdasda.com">About Us</a>
+            <a href="jsdajs.com">Term and Condition</a>
+            <a href="sdas.com">Help</a>
+        </div>
+        <p>&copy; 2024 SekidaCraft. All rights reserved.</p>
+    </footer>
+</body>
+</html>

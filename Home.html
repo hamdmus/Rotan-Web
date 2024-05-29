@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .section {
+            height: 100vh; /* Set each section to take up the full viewport height */
+            display: flex;
+            flex-direction: column;
+        }
+        .section1 {
+            background: url('bg home.png') no-repeat center center;
+            background-color: #7f5539;
+            background-size: contain;
+            background-position: right;
+            
+        }
+        .section2 {
+            background-color: #ede0d4;
+            
+        }
+        header, main, footer {
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #7f5539;
+            height: 60px;
+        }
+        header .logo img {
+            width: 80px;
+            height: 80px;
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            position: relative;
+        }
+        header nav a:hover {
+            color: #ede0d4;
+        }
+        header form {
+            display: flex;
+            align-items: center;
+        }
+        header form input {
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        main {
+        con
+
+        }    
+        .breadcrumb {
+            font-size: 14px;
+            margin: 20px;
+        }
+        .breadcrumb a {
+            color: #999;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .breadcrumb a:hover {
+            color: #333;
+        }
+        .page-title {
+            font-size: 32px;
+            margin: 20px;
+        }
+        h1 {
+            font-size: 50pt;
+            color:wheat;
+            padding: 3%;
+            position: relative;
+            text-align: left;
+  margin-top: 20px;  
+  margin-bottom: 0px;
+  
+}
+    .section1 h2 {
+    font-size: 20pt;
+    position: relative;
+    margin-right: 60%; 
+  margin-top: -20;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 3%;
+            position: top;
+            color: #d9d6d3;
+}
+.section2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            
+        }
+        .product-item {
+           list-style: none;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-around;
+           flex-wrap: wrap;
+           padding: 65%;
+           position: center;
+           color: #7f5539;
+        }
+        .product-item img {
+width: 150px;
+height: 150px;
+            border-bottom: 1px solid #b08968;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .product-item h2 {
+            font-size: 18px;
+margin: 0;
+text-align: center;
+        }
+        .product-item p {
+            font-size: 15px;
+            margin: 0;
+            text-align: justify;
+        }
+        footer {
+            background-color: #7f5539;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto; 
+        }
+        footer .footer-links a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        footer .newsletter {
+            margin: 20px 0;
+        }
+        footer .newsletter input {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            margin-right: 10px;
+        }
+        footer .newsletter button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #ff6363;
+            color: #fff;
+            cursor: pointer;
+        }
+        footer .newsletter button:hover {
+            background-color: #e55353;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logosekidacraft.png" alt="logo">
+        </div>
+        <nav>
+            <a href="tengok indahnya dunia.html">Home</a>
+            <a href="tengok dunia satwa.html" target="_blank">Shop</a>
+            <a href="mailto:hamdanmusta.02@gmail.com">Catalog</a>
+            <a href="mailto:hamdanmusta.02@gmail.com">Contact</a>
+            <a href="mailto:hamdanmusta.02@gmail.com">Wishlist</a>
+            <a href="mailto:hamdanmusta.02@gmail.com">Account</a>
+        </nav>
+        <form>
+            <input type="text" name="search" placeholder="Search...">
+        </form>
+    </header>
+    <main>    
+        <div class="section section1">
+            <h1>Welcome to <br> SekidaCraft</h1>
+            <h2>Platform for rattan handicrafts managed by SekidaVillage 48. Founded with the spirit of cultural preservation and community empowerment. SekidaCraft is committed to providing high-quality products that reflect the local wisdom of Sekida, East Borneo.</h2>
+        </div>
+        <div class="section section2">
+            <li class="product-item">
+                <img src="workingtogether.png" alt="Deskripsi Gambar">
+                <h2>Support Local Economy and Heritage</h2>
+                <p>By buying Sekidacraft, you directly support local artisans and preserve the rich cultural heritage passed down through generations.</p>
+            </li>
+            <li class="product-item">
+                <img src="tree.png" alt="Deskripsi Gambar">
+                <h2>Unique and High-Quality Products</h2>
+                <p>Sekidacraft offers a wide range of unique and high-quality handcrafted products. Each piece is meticulously crafted by hand using natural.</p>
+            </li>
+            <li class="product-item">
+                <img src="hearthouse.png" alt="Deskripsi Gambar">
+                <h2>Enhances Home Aesthetics</h2>
+                <p>Decorating your home with Sekidacraft products adds a touch of aesthetic beauty and warmth. Like make your home feel more special. </p>
+            </li>
+            <li class="product-item">
+                <img src="pricetaglogo.png" alt="Deskripsi Gambar">
+                <h2>Affordable Prices</h2>
+                <p>Sekidacraft offers products at affordable prices compared to similar imported products. Get high-quality products at better value.</p>
+            </li>
+            <li class="product-item">
+                <img src="ecologo.png" alt="Deskripsi Gambar">
+                <h2>Eco-Friendly</h2>
+                <p>Many Sekidacraft products are made with eco-friendly materials and sustainable production processes. Contribute to a more sustainable future.</p>
+            </li>
+            </div>
+    </main>
+
+
+    <footer>
+        <div class="footer-links">
+            <a href="asdasda.com">About Us</a>
+            <a href="jsdajs.com">Term and Condition</a>
+            <a href="sdas.com">Help</a>
+        </div>
+        <p>&copy; 2024 SekidaCraft. All rights reserved.</p>
+    </footer>
+</body>
+</html>
